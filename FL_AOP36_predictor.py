@@ -343,11 +343,11 @@ elif selected == "Manual":
        - Upload your .xlsx file using the file uploader.
        - Click the Submit button to process and preview your data.
        - The input file should containt ID column (first column) and SMILES column (second column).
-       - The column contains SMILES should also named as "SMILES".
+       - The column contains SMILES which should also be named as "SMILES".
     
     2. **Prediction**
        - Here Prediction for a compound is made using three q-RASAR models (gamma, alpha, beta).
-       - gamma: Ridge Regression (alpha = 0.5)
+       - gamma: Linear Support Vector Machine (C = 15)
        - alpha: Linear Support Vector Machine (C = 1)
        - beta: Linear Support Vector Machine (C = 5)
     
